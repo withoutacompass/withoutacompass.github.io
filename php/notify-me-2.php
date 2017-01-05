@@ -6,7 +6,7 @@ header('content-type: application/json');
 	$o->status = 'success';
 	echo json_encode($o);
 
-	$email_to = "myemail@email.com"; // Replace by your email address
+	$email_to = "withoutacompass121@gmail.com"; // Replace by your email address
 	$email = $_POST["email"];
 	$text = "Congratulations ! A new person wants to be alerted when your site will be online: $email";
 
@@ -14,6 +14,6 @@ header('content-type: application/json');
 	$headers .= "Content-type:text/html; charset=utf-8" . "\r\n"; 
 	$headers .= "From:<$email>\n";
 
-	mail($email_to, "Message", $text, $headers);
+	mail($email_to, "Follower", $text, $headers);
 
 ?>
