@@ -1,20 +1,6 @@
 <?php
 
-namespace Drewm;
 
-/**
- * Super-simple, minimum abstraction MailChimp API v2 wrapper
- * 
- * Uses curl if available, falls back to file_get_contents and HTTP stream.
- * This probably has more comments than code.
- *
- * Contributors:
- * Michael Minor <me@pixelbacon.com>
- * Lorna Jane Mitchell, github.com/lornajane
- * 
- * @author Drew McLellan <drew.mclellan@gmail.com> 
- * @version 1.1.1
- */
 class MailChimp
 {
     private $api_key;
