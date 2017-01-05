@@ -2,6 +2,11 @@
 google.maps.event.addDomListener(window, 'load', init);
 google.maps.event.addDomListener(window, 'resize', init);
 
+API: AIzaSyDrlc4R3JDah2T1ctdNV6Mx6i7dVs0mBTg
+
+
+
+
 function init() {
 
     // Basic options for a simple Google Map
@@ -195,7 +200,7 @@ function init() {
         ['<h6>3rd Stop: Pai, Thailand</h6><p>What will you be doing here?</p>', 39.0392193, 125.76252410000006, 3],
         ['<h6>4th Stop: Chang Mai, Thailand</h6><p>What will you be doing here?</p>', 18.7060641, 98.98171630000002, 4],
         ['<h6>4th Stop: New Dehli, India</h6><p>What will you be doing here?</p>', 28.6139391, 77.20902120000005, 5],
-        ['<h6>5th Stop: Pyongyang, North Korea</h6><p>This is my final stop. I will be trying not to get killed.</p>', 39.0392193, 125.76252410000006, 6]
+        ['<h6>5th Stop: Pyongyang, North Korea</h6><p>This is my final stop. </p>', 39.0392193, 125.76252410000006, 6]
     ];
 
     var infowindow = new google.maps.InfoWindow();
@@ -223,3 +228,4 @@ function init() {
     });
     
 }
+
