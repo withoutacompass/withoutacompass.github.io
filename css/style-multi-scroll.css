@@ -1991,12 +1991,19 @@ font-family: Raleway, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-se
   .block-team img.team-member {
     width: 100%;
   }
+
   #info .content h2 {
     font-size: 3rem;
   }
 
   #info .content h3 {
     font-size: 1.9rem;
+    margin: 2.3rem 0 0 0;
+  }
+
+  p.subtittle {
+    font-size: 1rem;
+    margin-bottom: .8rem;
   }
 }
 /* Extra Small Devices, Phones @media only screen and (max-width: 480px) */
@@ -2100,6 +2107,12 @@ font-family: Raleway, "Helvetica Neue", "Lucida Grande", Arial, Verdana, sans-se
 
   #info .content h3 {
     font-size: 1.9rem;
+    margin: 2.3rem 0 0 0;
+  }
+
+  p.subtittle {
+    font-size: 1rem;
+    margin-bottom: .8rem;
   }
 
   #subscribe #notifyMe {
