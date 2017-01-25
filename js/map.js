@@ -195,12 +195,12 @@ function init() {
     var map = new google.maps.Map(document.getElementById('map'), mapOptions, center);
 
     var locations = [
-        ['<h6>1st Stop: Wahiawa, HI</h6><p>Here I will be working with Surfing the Nations to do<br>whatever is needed to help the local communtiy</p>', 21.5010495, -158.02092270000003, 1],
+        ['<h6>1st Stop: Wahiawa, HI</h6><p>Here I will be working with Surfing the Nations to<br>help at risk youth & feeding the hungry</p>', 21.5010495, -158.02092270000003, 1],
         ['<h6>2nd Stop: Hanoi, Vietnam</h6><p> I will spend a month working with a non-profit whose focus is to<br>provide education to children who otherwise would not have acess to it. </p>', 21.0277644, 105.83415979999995, 2],
-        ['<h6>3rd Stop: Pai, Thailand</h6><p>What will you be doing here?</p>', 39.0392193, 125.76252410000006, 3],
-        ['<h6>4th Stop: Chang Mai, Thailand</h6><p>What will you be doing here?</p>', 18.7060641, 98.98171630000002, 4],
-        ['<h6>4th Stop: New Dehli, India</h6><p>What will you be doing here?</p>', 28.6139391, 77.20902120000005, 5],
-        ['<h6>5th Stop: Pyongyang, North Korea</h6><p>This is my final stop. </p>', 39.0392193, 125.76252410000006, 6]
+        ['<h6>3rd Stop: Pai, Thailand</h6><p>I will spend my time working in an orphanage. <br> I will be doing everything from chores to cooking to organizing activities with the kids. </p>', 39.0392193, 125.76252410000006, 3],
+        ['<h6>4th Stop: Chang Mai, Thailand</h6><p></p>', 18.7060641, 98.98171630000002, 4],
+        ['<h6>4th Stop: New Dehli, India</h6><p> I will be working in a house that brings young girls out of sex trafficking and abusive homes</p>', 28.6139391, 77.20902120000005, 5],
+        ['<h6>5th Stop: Pyongyang, North Korea</h6><p>Here I will be working with STN again.</p>', 39.0392193, 125.76252410000006, 6]
     ];
 
     var infowindow = new google.maps.InfoWindow();
